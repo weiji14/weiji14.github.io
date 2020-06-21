@@ -1,0 +1,22 @@
+{
+  "name": "weiji14.github.io",
+  "version": "1.0.0",
+  "description": "My academic personal website and Curriculum Vitae. Built using [Eleventy](https://11ty.io)!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiji14/weiji14.github.io.git"
+  },
+  "keywords": [],
+  "author": "Wei Ji Leong",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/weiji14/weiji14.github.io/issues"
+  },
+  "homepage": "https://github.com/weiji14/weiji14.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
