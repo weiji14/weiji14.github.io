@@ -27,3 +27,13 @@ layout: base.njk
   * **Python**: Excellent proficiency, from **pandas** to distributed **dask** DataFrames, executing vectorized **NumPy** operations, and utilizing various geospatial Python libraries like **Rasterio** and **PyGMT**. Avid user of **Keras/Tensorflow** for prototyping deep neural networks and **Chainer** for more advanced models.
 - *Deep Learning skills*:
   * Computer Vision: Comfortable with designing **Convolutional Neural Networks** for **image segmentation** of satellite imagery. Very knowledgeable about state-of-the-art models including **Generative Adversarial Networks** for **super resolution**. Plenty of practical experience with **structuring** machine learning projects, dataset **preprocessing**, **hyperparameter tuning** and modifying neural network **architectures** for better performance on novel applications.
+
+## Community Experience
+
+<ul>
+{% for post in collections.community reversed sort_by:date %}
+
+- <time><small>{{ post.data.date | date: "%Y/%m/%d" }}</small></time> ~ {{ post.data.type | capitalize }} ~ [{{ post.data.title }}]({{ post.url }})
+
+{% endfor %}
+</ul>
