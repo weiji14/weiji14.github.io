@@ -14,9 +14,9 @@ layout: base.njk
 - Date: <time>{{ post.data.date | date: "%Y/%m/%d" }}</time>
 - Conference Name: {{ post.data.conference }}
 - Location: {{ post.data.location }}
-- Websites:
-  {%- for website in post.data.websites %}
-    - {{ website }}
+- Links:&nbsp;
+  {%- for website in post.data.websites -%}
+    [{{ website[0] | capitalize }}]({{ website[1] }}){% unless forloop.last %}, {% endunless %}
   {%- endfor -%}
 
 {% endfor %}

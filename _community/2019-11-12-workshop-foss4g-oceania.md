@@ -4,7 +4,7 @@ title: "PyGMT for geoscientists: A PyData compatible package for analyzing and p
 conference: FOSS4G SotM Oceania 2019
 location: Wellington, New Zealand
 websites:
-  - https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV
-  - https://github.com/GenericMappingTools/foss4g2019oceania
+  abstract: https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV
+  github: https://github.com/GenericMappingTools/foss4g2019oceania
 type: workshop
 ---
