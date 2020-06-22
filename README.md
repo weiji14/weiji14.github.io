@@ -45,3 +45,32 @@ However, you may need to [tell Github Pages to use the `gh-pages` branch as the 
 Alternatively, you can upload the files in `_site` manually to the `gh-pages`
 branch, or another hosting provider of your choice such as
 [netlify](https://www.netlify.com) or [Vercel](https://vercel.com).
+
+
+# Content structure
+
+The content are organized into multiple pages as follow:
+
+- Home
+- Curriculum Vitae
+- Experiences:
+  - Community
+  - Academic
+  - Professional
+
+These are list of YAML metadata tags used for each markdown (`*.md`) file:
+
+- **date**
+- **title**
+- authors
+- publication
+- citation
+- websites
+- tag[type]:
+  - community
+    - workshop
+  - academic
+    - preprint
+    - presentation
+    - poster
+  - professional

@@ -37,3 +37,14 @@ layout: base.njk
 
 {% endfor %}
 </ul>
+
+## Academic Experience
+
+<ul>
+{% for post in collections.academic reversed sort_by:date %}
+
+- {{ post.data.type | capitalize }} - [{{ post.data.title }}]({{ post.url }})
+  <small>{{ post.data.citation }}</small>
+
+{% endfor %}
+</ul>
