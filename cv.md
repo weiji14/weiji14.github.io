@@ -48,3 +48,13 @@ layout: base.njk
 
 {% endfor %}
 </ul>
+
+## Professional Experience
+
+<ul>
+{% for post in collections.professional reversed sort_by:date %}
+
+- <time>{{ post.data.start_date | date: "%b %Y" }}</time> to <time>{{ post.data.date | date: "%b %Y" }}</time> ~ [{{ post.data.role }} at {{ post.data.company }}]({{ post.url }})
+
+{% endfor %}
+</ul>
