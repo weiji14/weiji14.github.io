@@ -1,5 +1,5 @@
 {
   "layout" : "base.njk",
   "tags" : "academic",
-  "permalink": "/academic/#{{ title | slug }}/"
+  "permalink": "/academic/#{{ date | date: '%Y%m%d' }}-{{ title | slug }}/"
 }
