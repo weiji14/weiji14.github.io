@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - source  # default branch
+  pull_request:
+    branches:
+      - source
 
 jobs:
   build_deploy:
