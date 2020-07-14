@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2.2.0
+        with:
+          submodules: true
 
       - name: Build HTML pages using eleventy
         uses: TartanLlama/actions-eleventy@v1.2
