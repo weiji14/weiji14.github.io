@@ -8,7 +8,7 @@ layout: base.njk
 
 <ul>
 {% for post in collections.academic reversed sort_by:date %}
-{% if post.data.type == "preprint" %}
+{% if post.data.type == "paper" %}
 
 #### {{ post.data.title }}
 
