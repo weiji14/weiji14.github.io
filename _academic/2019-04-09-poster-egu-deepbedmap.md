@@ -3,7 +3,7 @@ date: 2019-04-09
 title: "DeepBedMap: Using a deep neural network to better resolve the bed topography of Antarctica"
 authors:
   - Wei Ji Leong
-  - Huw Horgan
+  - Huw Joseph Horgan
 conference: EGU General Assembly
 location: Vienna, Austria
 citation: |

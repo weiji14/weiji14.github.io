@@ -3,7 +3,7 @@ date: 2019-07-10
 title: "DeepBedMap: A super-resolution deep neural network for resolving the bed topography of Antarctica"
 authors:
   - Wei Ji Leong
-  - Huw Horgan
+  - Huw Joseph Horgan
 conference: IGS Five Decades of Radioglaciology Symposium
 location: Stanford, California, United States
 citation: |

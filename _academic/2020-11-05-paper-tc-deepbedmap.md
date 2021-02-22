@@ -3,7 +3,7 @@ date: 2020-11-05
 title: "DeepBedMap: A deep neural network for resolving the bed topography of Antarctica"
 authors:
   - Wei Ji Leong
-  - Huw Horgan
+  - Huw Joseph Horgan
 publication: The Cryosphere
 citation: |
   Leong, W. J., & Horgan, H. J. (2020). *DeepBedMap: A deep neural network for resolving the bed topography of Antarctica*. The Cryosphere, 14(11), 3687–3705. https://doi.org/10.5194/tc-14-3687-2020
