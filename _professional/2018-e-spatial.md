@@ -5,6 +5,6 @@ role: Spatial Data Analyst
 team: Data/Dev team
 company: e-Spatial
 websites:
-  blog post: https://www.e-spatial.co.nz/kaikoura-in-3d-one-month-before-the-eq/
-  appointment: https://www.e-spatial.co.nz/new-gis-analyst-wei-ji-leong
+  blog post: https://www.linkedin.com/pulse/kaikoura-nz-3d-one-month-before-m75-earthquake-wei-ji-leong
+  appointment: https://web.archive.org/web/20200121033413/https://www.e-spatial.co.nz/new-gis-analyst-wei-ji-leong/
 ---
