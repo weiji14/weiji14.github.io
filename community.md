@@ -18,6 +18,13 @@ layout: base.njk
   {%- for website in post.data.websites -%}
     [{{ website[0] | capitalize }}]({{ website[1] }}){% unless forloop.last %}, {% endunless %}
   {%- endfor -%}
+  {% if post.data.image.thumbnail %}
+    <center>
+
+    [![{{ post.data.caption }}]({{ post.data.image.thumbnail }})]({{ post.data.websites.github }})
+
+    </center>
+  {% endif %}
 
 {% endfor %}
 </ul>

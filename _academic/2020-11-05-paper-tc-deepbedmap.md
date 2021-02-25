@@ -10,6 +10,7 @@ citation: |
 image:
   caption: DeepBedMap paper on The Cryosphere
   teaser: https://github.com/weiji14/deepbedmap/releases/download/v1.1.0/fig0_deepbedmap_dem.png
+  thumbnail: https://tc.copernicus.org/articles/14/3687/2020/tc-14-3687-2020-f01-web.png
 websites:
   DOI: https://doi.org/10.5194/tc-14-3687-2020
   github: https://github.com/weiji14/deepbedmap

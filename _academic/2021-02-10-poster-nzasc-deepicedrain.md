@@ -11,6 +11,7 @@ citation: |
 image:
   caption: NZASC 2021 conference poster
   teaser: https://github.com/weiji14/nzasc2021/releases/download/v1.0.0/siple_coast_lakes.png
+  thumbnail: https://github.com/weiji14/nzasc2021/releases/download/v1.0.0/NZASC2021_DeepIceDrain_poster.png
 websites:
   abstract: https://www.antarcticanz.govt.nz/uploads/document-hub/Connecting-Through-Change-Conference-Handbook-2021-ALL.pdf
   poster: https://github.com/weiji14/nzasc2021/releases/download/v1.0.0/NZASC2021_DeepIceDrain_poster.pdf
