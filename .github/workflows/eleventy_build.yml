@@ -17,6 +17,8 @@ jobs:
 
       - name: Build HTML pages using eleventy
         uses: TartanLlama/actions-eleventy@v1.2
+        with:
+          install_dependencies: true
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3.6.1
