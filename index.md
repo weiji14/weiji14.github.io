@@ -8,3 +8,18 @@ layout: base.njk
 [![ResearchGate profile](https://img.shields.io/badge/ResearchGate-Wei_Ji_Leong-%2300d0af?logo=researchgate)](https://www.researchgate.net/profile/Wei_Ji_Leong)
 
 {% include weiji14/README.md %}
+
+## Portfolio
+
+<section>
+{% for post in collections.all reversed sort_by:date %}
+{% if post.data.image.teaser %}
+<article>
+
+  [![{{ post.data.title }}]({{ post.data.image.teaser }})]({{ post.url }})
+  {{ post.data.image.caption }}
+
+</article>
+{% endif %}
+{% endfor %}
+</section>
