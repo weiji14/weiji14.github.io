@@ -3,7 +3,7 @@
 My academic personal website and Curriculum Vitae.
 Built using [Eleventy](https://11ty.io)!
 
-[![Eleventy Build](https://github.com/weiji14/weiji14.github.io/workflows/Eleventy%20Build/badge.svg)](https://github.com/weiji14/weiji14.github.io/actions?query=workflow%3A%22Eleventy+Build%22)
+[![Eleventy Build](https://github.com/weiji14/weiji14.github.io/actions/workflows/eleventy_build.yml/badge.svg)](https://github.com/weiji14/weiji14.github.io/actions/workflows/eleventy_build.yml)
 
 # Getting Started
 
@@ -65,6 +65,10 @@ These are list of YAML metadata tags used for each markdown (`*.md`) file:
 - authors
 - publication
 - citation
+- image:
+  - caption
+  - teaser
+  - thumbnail
 - websites
 - tag[type]:
   - community
