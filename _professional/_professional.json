@@ -1,5 +1,5 @@
 {
   "layout" : "base.njk",
   "tags" : "professional",
-  "permalink": "/professional/#{{ role | slug }}-at-{{ company | slug }}/"
+  "permalink": "/professional/#{{ role | slug }}-at-{{ company | slugify }}/"
 }

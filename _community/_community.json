@@ -1,5 +1,5 @@
 {
   "layout" : "base.njk",
   "tags" : "community",
-  "permalink": "/community/#{{ title | slug }}"
+  "permalink": "/community/#{{ title | slugify }}"
 }
