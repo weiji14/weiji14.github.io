@@ -53,7 +53,12 @@ layout: base.njk
 <ul>
 {% for post in collections.community reversed sort_by:date %}
 
-- <time><small>{{ post.data.date | date: "%Y/%m/%d" }}</small></time> ~ {{ post.data.type | capitalize }} ~ [{{ post.data.title }}]({{ post.url }})
+{% if post.data.date %}
+  - <time><small>{{ post.data.date | date: "%Y/%m/%d" }}</small></time> ~ {{ post.data.type | capitalize }} ~ [{{ post.data.title }}]({{ post.url }})
+{% endif %}
+{% if post.data.date_start %}
+  - <time>{{ post.data.date_start | date: "%Y/%m/%d" }}</time> to <time>{{ post.data.date_end | date: "%Y/%m/%d" }}</time> ~ [{{ post.data.title }}]({{ post.url }})
+{% endif %}
 
 {% endfor %}
 </ul>

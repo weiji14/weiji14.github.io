@@ -4,15 +4,22 @@ subtitle: Workshops, Hackathons and Open Source Contributions
 layout: base.njk
 ---
 
-### Workshops
+### Workshops/Hackweeks
 
 <ul>
 {% for post in collections.community reversed sort_by:date %}
 
 #### {{ post.data.title }}
 
-- Date: <time>{{ post.data.date | date: "%Y/%m/%d" }}</time>
-- Conference Name: {{ post.data.conference }}
+{% if post.data.date %}
+  - Date: <time>{{ post.data.date | date: "%Y/%m/%d" }}</time>
+{% endif %}
+{% if post.data.date_start %}
+  - Dates: <time>{{ post.data.date_start | date: "%Y/%m/%d" }} to {{ post.data.date_end | date: "%Y/%m/%d" }}</time>
+{% endif %}
+{% if post.data.conference %}
+  - Conference Name: {{ post.data.conference }}
+{% endif %}
 - Location: {{ post.data.location }}
 - Links:&nbsp;
   {%- for website in post.data.websites -%}
