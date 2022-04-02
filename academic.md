@@ -8,7 +8,7 @@ layout: base.njk
 
 <ul>
 {% for post in collections.academic reversed sort_by:date %}
-{% if post.data.type == "paper" %}
+{% if post.data.type == "paper" or post.data.type == "thesis" %}
 
 #### {{ post.data.title }}
 
@@ -61,7 +61,7 @@ layout: base.njk
 
 <ul>
 {% for post in collections.academic reversed sort_by:date %}
-{% if post.data.type == "poster" %}
+{% if post.data.type == "poster" or post.data.type == "e-lightning" %}
 
 #### {{ post.data.title }}
 
