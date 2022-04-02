@@ -11,7 +11,7 @@ layout: base.njk
 
 #### {{ post.data.role }} at {{ post.data.company }}
 
-- From <time>{{ post.data.start_date | date: "%b %Y" }}</time> to <time>{{ post.data.date | date: "%b %Y" }}</time> in the {{ post.data.team }}.
+- From <time>{{ post.data.date_start | date: "%b %Y" }}</time> to <time>{{ post.data.date_end | date: "%b %Y" }}</time> in the {{ post.data.team }}.
 - Links:&nbsp;
   {%- for website in post.data.websites -%}
     [{{ website[0] | capitalize }}]({{ website[1] }}){% unless forloop.last %}, {% endunless %}

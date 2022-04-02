@@ -76,7 +76,7 @@ layout: base.njk
 <ul>
 {% for post in collections.professional reversed sort_by:date %}
 
-- <time>{{ post.data.start_date | date: "%b %Y" }}</time> to <time>{{ post.data.date | date: "%b %Y" }}</time> ~ [{{ post.data.role }} at {{ post.data.company }}]({{ post.url }})
+- <time>{{ post.data.date_start | date: "%b %Y" }}</time> to <time>{{ post.data.date_end | date: "%b %Y" }}</time> ~ [{{ post.data.role }} at {{ post.data.company }}]({{ post.url }})
 
 {% endfor %}
 </ul>

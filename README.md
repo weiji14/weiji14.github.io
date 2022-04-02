@@ -27,11 +27,11 @@ Start by cloning this [repo-url](/../../), or that of your own fork.
     # Change directory into the repo folder
     cd weiji14.github.io
     # Use eleventy to build from `.` directory to `_site`
-    eleventy
+    npx @11ty/eleventy
 
 ## Preview the files locally
 
-    eleventy --serve
+    npx @11ty/eleventy --serve
 
 ## Deploy to the web
 
@@ -60,21 +60,32 @@ The content are organized into multiple pages as follow:
 
 These are list of YAML metadata tags used for each markdown (`*.md`) file:
 
-- **date**
-- **title**
-- authors
-- publication
-- citation
-- image:
-  - caption
-  - teaser
-  - thumbnail
-- websites
-- tag[type]:
-  - community
+- Common fields
+  - **date** / **date_start**, **date_end**
+  - image:
+    - caption
+    - teaser
+    - thumbnail
+  - websites
+
+- Community
+  - **title**
+  - conference
+  - **location**
+  - **type**
     - workshop
-  - academic
-    - preprint
+- Academic
+  - **title**
+  - **authors**
+  - conference
+  - publication
+  - **location**
+  - **citation**
+  - **type**
+    - preprint/paper/thesis
     - presentation
     - poster
-  - professional
+- Professional
+  - **role**
+  - **team**
+  - **company**

@@ -1,6 +1,6 @@
 ---
-date: 2018-06
-start_date: 2016-06
+date_start: 2016-06
+date_end: 2018-06
 role: Spatial Data Analyst
 team: Data/Dev team
 company: e-Spatial
