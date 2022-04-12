@@ -7,7 +7,7 @@ authors:
 conference: AGU Fall Meeting
 location: New Orleans, LA & Online Everywhere
 citation: |
-  Leong, W. J., & Horgan, H. J. (2021, December 14). *Spatiotemporal variability of active subglacial lakes in Antarctica from 2018-2021 using ICESat-2 laser altimetry*. AGU 2021 Fall Meeting, virtual.
+  Leong, W. J., & Horgan, H. J. (2021, December 14). *Spatiotemporal variability of active subglacial lakes in Antarctica from 2018-2021 using ICESat-2 laser altimetry*. AGU 2021 Fall Meeting, virtual. https://doi.org/10.1002/essoar.10510996.1
 image:
   caption: AGU 2021 conference poster on subglacial lakes
   teaser: https://user-images.githubusercontent.com/23487320/146061677-85363e51-6c57-4d05-b358-c725be88a9d0.gif
