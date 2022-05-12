@@ -12,7 +12,7 @@ authors:
 conference: AGU Fall Meeting
 location: New Orleans, LA & Online Everywhere
 citation: |
-  Jones, M.,, Grund, M., Schlitzer, W., Leong, W. J., Tian, D., Yao, J. & Uieda, L. (2021, December 17). *PyGMT: An open-source Python library for geospatial processing, analysis, and visualization*. AGU 2021 Fall Meeting, virtual.
+  Jones, M., Grund, M., Schlitzer, W., Leong, W. J., Tian, D., Yao, J. & Uieda, L. (2021, December 17). *PyGMT: An open-source Python library for geospatial processing, analysis, and visualization*. AGU 2021 Fall Meeting, virtual.
 image:
   caption: AGU 2021 conference poster for pygmt
   thumbnail: https://agu2021fallmeeting-agu-direct.ipostersessions.com/preview/94-C4-D2-7C-51-67-78-1E-FC-65-B9-40-08-44-C5-D7.png
