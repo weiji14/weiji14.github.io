@@ -2,6 +2,11 @@
 date_start: 2021-08-17
 date_end: 2021-08-19
 title: "ESWN Professional Development Workshop: Developing Free and Open Source Software with PyGMT"
+authors:
+  - Max Jones
+  - Wei Ji Leong
+  - Paul Wessel
+  - Christine Wiedinmyer
 location: Online via Zoom/Slack
 image:
   caption: PyGMT ESWN Professional Development Workshop

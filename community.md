@@ -17,6 +17,12 @@ layout: base.njk
 {% if post.data.date_start %}
   - Dates: <time>{{ post.data.date_start | date: "%Y/%m/%d" }} to {{ post.data.date_end | date: "%Y/%m/%d" }}</time>
 {% endif %}
+{% if post.data.authors %}
+  - by:&nbsp;
+  {%- for author in post.data.authors -%}
+     {{ author }}{% unless forloop.last %}, {% endunless %}
+  {%- endfor -%}
+{% endif %}
 {% if post.data.conference %}
   - Conference Name: {{ post.data.conference }}
 {% endif %}
