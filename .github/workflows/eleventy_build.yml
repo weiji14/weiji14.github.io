@@ -9,9 +9,9 @@ on:
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v2.5.0
         with:
           submodules: true
 
@@ -21,7 +21,7 @@ jobs:
           install_dependencies: true
 
       - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3.8.0
+        uses: peaceiris/actions-gh-pages@v3.9.0
         with:
           publish_dir: _site
           publish_branch: main
