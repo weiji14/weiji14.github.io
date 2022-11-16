@@ -1,5 +1,5 @@
 ---
-date: 2022-06-17
+date: 2022-11-07
 title: "zen3geo: Guiding Earth Observation data on its path to enlightenment"
 authors:
   - Wei Ji Leong
