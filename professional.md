@@ -1,6 +1,6 @@
 ---
 title: Professional Experience
-subtitle: Previous employment in the industry
+subtitle: Employment in the geospatial industry and research groups
 layout: base.njk
 ---
 
