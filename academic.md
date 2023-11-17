@@ -47,7 +47,11 @@ layout: base.njk
   {% if post.data.image.thumbnail %}
     <center>
 
-    [![{{ post.data.caption }}]({{ post.data.image.thumbnail }})]({{ post.data.websites.github }})
+    {% if post.data.websites.github %}
+      [![{{ post.data.caption }}]({{ post.data.image.thumbnail }})]({{ post.data.websites.github }})
+    {% elsif post.data.websites.gitlab %}
+      [![{{ post.data.caption }}]({{ post.data.image.thumbnail }})]({{ post.data.websites.gitlab }})
+    {% endif %}
 
     </center>
   {% endif %}
