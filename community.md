@@ -4,7 +4,7 @@ subtitle: Workshops, Hackathons and Open Source Contributions
 layout: base.njk
 ---
 
-### Workshops/Hackweeks
+### Workshops/Hackweeks/Presentations
 
 <ul>
 {% for post in collections.community reversed sort_by:date %}

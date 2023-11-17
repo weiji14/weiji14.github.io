@@ -1,7 +1,7 @@
 ---
 date: 2019-11-12
 title: "PyGMT for geoscientists: A PyData compatible package for analyzing and plotting time-series and gridded data"
-conference: FOSS4G SotM Oceania 2019
+conference: FOSS4G SotM Oceania
 location: Wellington, New Zealand
 image:
   caption: PyGMT FOSS4G Oceania workshop
