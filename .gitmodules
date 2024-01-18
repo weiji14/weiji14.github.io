@@ -1,4 +1,4 @@
 [submodule "weiji14"]
-	path = weiji14
-	url = https://github.com/weiji14/weiji14
-	branch = main
+  path = weiji14
+  url = https://github.com/weiji14/weiji14.git
+  branch = main
