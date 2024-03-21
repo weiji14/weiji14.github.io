@@ -1,0 +1,29 @@
+
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "type": "OrderedCollectionPage",
+  "id": "https://weiji14.github.io/outbox_1",
+  "orderedItems": [
+    {
+      "actor": "https://weiji14.github.io/weblog",
+      "type": "Create",
+      "published": "2023-12-12T00:00:00.000Z",
+      "id": "https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/publish",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "attributedTo": "https://weiji14.github.io/weblog",
+        "content": "<p>The Pangeo Machine Learning Ecosystem in 2023</p><p><a href=\"https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/\">https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/</a></p>",
+        "id": "https://weiji14.github.io//blog/the-pangeo-machine-learning-ecosystem-in-2023/",
+        "inReplyTo": null,
+        "published": "2023-12-12T00:00:00.000Z",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "type": "Note",
+        "url": "https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/"
+      }
+    }
+  ]
+}
