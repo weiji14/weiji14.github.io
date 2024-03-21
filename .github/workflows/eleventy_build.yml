@@ -21,7 +21,7 @@ jobs:
           node-version: '18'
 
       - name: Build HTML pages using eleventy
-        run:
+        run: |
           npm install
           npm run build
 
