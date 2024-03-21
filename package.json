@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My academic personal website and Curriculum Vitae. Built using [Eleventy](https://11ty.io)!",
   "scripts": {
+    "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/weiji14/weiji14.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "eleventy-plugin-activity-pub": "^0.1.1",
     "eleventy-plugin-lazyimages": "^2.1.2",
     "sharp": "^0.32.6"
   }
