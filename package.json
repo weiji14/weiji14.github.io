@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My academic personal website and Curriculum Vitae. Built using [Eleventy](https://11ty.io)!",
   "scripts": {
+    "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
