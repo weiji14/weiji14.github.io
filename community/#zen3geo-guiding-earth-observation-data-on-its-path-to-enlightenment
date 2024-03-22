@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.4.0/css/sakura.min.css">
     <link rel="webmention" href="https://webmention.io/weiji14.github.io/webmention" />
     <link rel="pingback" href="https://webmention.io/weiji14.github.io/xmlrpc" />
+    <link rel="alternate" href="https://weiji14.github.io/.well-known/webfinger" type="application/jrd+json" />
+    <link rel="alternate" href="https://weiji14.github.io/weblog" type="application/activity+json" />
     <title>zen3geo: Guiding Earth Observation data on its path to enlightenment</title>
   </head>
 
