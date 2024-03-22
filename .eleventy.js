@@ -1,5 +1,6 @@
 const activityPubPlugin = require('eleventy-plugin-activity-pub');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   // Add plugins
@@ -12,4 +13,5 @@ module.exports = function (eleventyConfig) {
     outboxCollection: 'post'
 	});
   eleventyConfig.addPlugin(lazyImagesPlugin);
+  eleventyConfig.addPlugin(pluginRss);
 };
