@@ -24,6 +24,27 @@
         "type": "Note",
         "url": "https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/"
       }
+    },
+    {
+      "actor": "https://weiji14.github.io/weblog",
+      "type": "Create",
+      "published": "2024-01-11T00:00:00.000Z",
+      "id": "https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/publish",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "attributedTo": "https://weiji14.github.io/weblog",
+        "content": "<p>When cloud-native geospatial meets GPU-native machine learning</p><p><a href=\"https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/\">https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/</a></p>",
+        "id": "https://weiji14.github.io//blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/",
+        "inReplyTo": null,
+        "published": "2024-01-11T00:00:00.000Z",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "type": "Note",
+        "url": "https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/"
+      }
     }
   ]
 }

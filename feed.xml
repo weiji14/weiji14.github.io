@@ -7,6 +7,14 @@
     <description>Technical blog posts on building next generation geospatial data science tools!</description>
     <language>en</language>
     <item>
+      <title>When cloud-native geospatial meets GPU-native machine learning</title>
+      <link>https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/</link>
+      <description>Accelerating compute with GPUDirect Storage technology on cloud-native geospatial data.</description>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <dc:creator>Wei Ji Leong</dc:creator>
+      <guid>https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/</guid>
+    </item>
+    <item>
       <title>The Pangeo Machine Learning Ecosystem in 2023</title>
       <link>https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/</link>
       <description>An overview of the open source libraries enabling geospatial machine learning in the Pangeo community.</description>

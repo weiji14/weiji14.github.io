@@ -3,7 +3,7 @@
   "@context": "https://www.w3.org/ns/activitystreams",
   "id": "https://weiji14.github.io/weblog/outbox",
   "type": "OrderedCollection",
-  "totalItems": 1,
+  "totalItems": 2,
   "first": "https://weiji14.github.io/outbox_page",
   "last": "https://weiji14.github.io/outbox_page"
 }
