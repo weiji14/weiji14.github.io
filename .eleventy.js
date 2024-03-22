@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     displayName: "Wei Ji's technical blog",
     summary: 'Technical blog posts on building next generation geospatial data science tools!',
     outbox: true,
-    outboxCollection: 'blog'
+    outboxCollection: 'post'
 	});
   eleventyConfig.addPlugin(lazyImagesPlugin);
 };
