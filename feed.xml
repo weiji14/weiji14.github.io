@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://weiji14.github.io" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wei Ji&#39;s technical blog</title>
+    <link>https://weiji14.github.io</link>
+    <atom:link href="https://weiji14.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Technical blog posts on building next generation geospatial data science tools!</description>
+    <language>en</language>
+    <item>
+      <title>The Pangeo Machine Learning Ecosystem in 2023</title>
+      <link>https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/</link>
+      <description>An overview of the open source libraries enabling geospatial machine learning in the Pangeo community.</description>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Wei Ji Leong</dc:creator>
+      <guid>https://weiji14.github.io/blog/the-pangeo-machine-learning-ecosystem-in-2023/</guid>
+    </item>
+  </channel>
+</rss>
