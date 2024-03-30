@@ -11,7 +11,8 @@ image:
   thumbnail: https://github.com/weiji14/foss4g2023oceania/assets/23487320/a261842d-d008-48c4-83bb-e3fc977d7f90
 websites:
   abstract: https://talks.osgeo.org/foss4g-sotm-oceania-2023/talk/YP3KPT/
-  blog: ../blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/
+  blog part1: ../blog/the-pangeo-machine-learning-ecosystem-in-2023/
+  blog part2: ../blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/
   youtube: https://www.youtube.com/watch?v=X2LBuUfSo5Q
   slides: https://hackmd.io/@weiji14/foss4g2023oceania
   github: https://github.com/weiji14/foss4g2023oceania
