@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1.0.0/serve/inter.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vladocar/basic.css@1.0.3/css/basic.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.4.0/css/sakura.min.css">
+    <link rel="webmention" href="https://webmention.io/weiji14.github.io/webmention">
+    <link rel="pingback" href="https://webmention.io/weiji14.github.io/xmlrpc">
+    <link rel="alternate" href="https://weiji14.github.io/.well-known/webfinger" type="application/jrd+json">
+    <link rel="alternate" href="https://weiji14.github.io/weblog" type="application/activity+json">
+    <title>Engaging in the 2024 UW Hackweek</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a> /
+        <a href="/blog">Blog</a> /
+        <a href="/cv">CV</a> /
+        <b>Experience:</b>
+        <a href="/community">Community</a> /
+        <a href="/academic">Academic</a> /
+        <a href="/professional">Professional</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Engaging in the 2024 UW Hackweek</h1>
+      <p>Notes on attending the 2024 NASA Earth Sciences UW Hackweek in Seattle, USA 🇺🇸 from 19-23 Aug 2024.</p>
+<ul>
+<li>Program schedule: <a href="https://2024.hackweek.io/#schedule">https://2024.hackweek.io/#schedule</a></li>
+<li>Jupyter Book for ICESat-2 track: <a href="https://icesat-2-2024.hackweek.io">https://icesat-2-2024.hackweek.io</a></li>
+</ul>
+<p>Photo of the Hackweek venue in the University of Washington.</p>
+<p><img src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAATABkDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYCBAcD/8QAKRAAAQQBAwMBCQAAAAAAAAAAAgABAwQRBRITFCGRUQYiMTJSU1Wx0f/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/EABoRAAIDAQEAAAAAAAAAAAAAAAABERIhMQL/2gAMAwEAAhEDEQA/AGTkeQOO5HvH6mVKeiVcuWt70X6WfTe0eoS7pIpj2N3wPdlxta/YDYcliUOZsMOMZQ1yRUtg2CCdpNDlwTZF/Vkvc7+reWSGOrA9d6ozTRcnzSOXbKj0tf8AMF5f+K0b4ZbXnpnFa/ahjlCOc2HGcZUquo2rWvaa1iZzYSbDOzIQtQQf9ZATtwAQs47/AIK/0Nb7AeEIRoRn/9k=" alt="IMG_20240819_091005" data-src="https://github.com/user-attachments/assets/1f96363b-f174-4b88-8403-9e7e27322843" class="lazyload" width="4000" height="3000"></p>
+<p>As mentioned in my Mastodon <a href="https://mastodon.nz/@weiji14/112989575093074957">post</a> on the first day (you can find all my live-toots that week under the #Hackweek tag), this in-person Hackweek meant a lot to me because I've been trying for 5 years (since I found out about it during my PhD) to attend, at least the ICESat-2 track that is.
+The format of the ICESat-2 Hackweek itself has evolved over the years, including a fully remote event in 2022, a hybrid event in 2023, to the 3-in-1 ICESat-2/SnowEx/GeoSMART Hackweek this 2024!
+On a personal note, I've felt so fortunate to still have this opportunity to connect with the Cryosphere community, because even though I'm not strictly in academia anymore, or working with laser altimeter data in my day job, I want to make sure that the next generation of researchers have the best tools to do open science, and this Hackweek I've found is hands down the most impactful way to achieve it.</p>
+<h2 id="overall-impressions" tabindex="-1"><a class="header-anchor" href="#overall-impressions"><span>Overall impressions</span></a></h2>
+<p>To my knowledge, this is one of the most sought after science-focused Hackathon-style events of its kind, organized mostly by folks from UW's eScience Institute which has been continuously improving their Hackweek as a Service model.
+There were maybe 100-ish people attending, mainly university students at the postgraduate level and postdocs, and a quarter or so people are more seasoned veterans working at NASA's DAACs, Research Software Engineers, tenured academics, and maybe a handful of industry types.</p>
+<p>Given the conference location and funders (NASA/NSF), the attendees were mostly from the US and Canada, with some from Europe and India, not so much from the Asia Pacific.
+The demographic balance seemed pretty good, I'd reckon there was an evenly split gender balance (though there were pockets of more men in some projects), and they even had non-binary bathrooms (a first for me at a conference!).
+Of course, there's still room for improvement on getting more non-white and non-male identities to the teaching ranks, but I was glad to see a student I taught two years ago lead a project this year, and would love to see more of that happen!</p>
+<p><img src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAATABkDASIAAhEBAxEB/8QAGwAAAgEFAAAAAAAAAAAAAAAAAAcBAgMEBQb/xAAqEAABAwQBAgMJAAAAAAAAAAACAQMEAAUREgYhMRNVkRUWIkFRUmFxof/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/EABsRAAICAwEAAAAAAAAAAAAAAAABAhEDEjEh/9oADAMBAAIRAxEAPwBoEw5oqtr1+VGjot/GiKuOtJ2zcnvj1vKVOcMWn3NtUTBIiL2Ss62c9uE96VHZNG3sYj7/AI+tBKGstRFJNWdvxtGX5V2amtAbKnhQJcZ61sfYfHvKWPWkjHvt4uF+SLLdBvQ9nnALCYTvTE95+O+Yf2kTpGZdLd8bAXI4iAiKIWERMJSUnSXo98jkw4oFuXUf3RRWMHtWWQlDJYso9l2Jzque9UeA19g+lFFJLpI//9k=" alt="IMG_20240819_140343" data-src="https://github.com/user-attachments/assets/2f0c68b8-2dda-480b-880c-220d83a95b77" class="lazyload" width="4000" height="3000"></p>
+<p>On the schedule side, the general format was to have lecture/interactive tutorials in the morning, and project hack-time in the afternoon.
+The tutorials started with the basics of doing Collaborative Development on a shared JupyterHub called CryoCloud, an overview of the ICESat-2/SnowEx missions, and basics of accessing those datasets in the cloud.
+The more advanced or niche topics like machine learning and details of field-based instruments like LiDAR &amp; GPR were taught near the middle of the week.
+Projects involved teams from as small as 2? to 10+, and typically covered topics adjacent to someone's PhD research, to more software driven teams like <a href="https://github.com/ICESAT-2HackWeek/icepyx4gedi"><code>icepyx4gedi</code></a> which I worked on!</p>
+<p><img src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAATABkDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQFBgcB/8QAJRAAAgICAQIGAwAAAAAAAAAAAQIDBAARBSExBhIVQVGRExRU/8QAFwEBAAMAAAAAAAAAAAAAAAAAAwABAv/EABsRAAICAwEAAAAAAAAAAAAAAAABAxEhQXES/9oADAMBAAIRAxEAPwB2zxNerHBvUNhxseU9cnuIv8jYK1v2VKoNDZ6nIqnNWezXXkJVkvuNOPgYpR5CtHzVxbEao1ZS0bBtB+/TArNIb1atlxNEzuwecSOO6g9s76QvwcpvgXn5bnNySSwiFJCRtm6H2zTPzn4X7yNIy8GAeK3ata5aeBikyx7DjuMgppZJeK46V3YyPos2+pwwxCi4QjyU67LtSACCDr2x71C3/RJ94YYEe+jS64f/2Q==" alt="IMG_20240819_140303" data-src="https://github.com/user-attachments/assets/9ee7984c-836b-4c83-a7c3-f08bde3b1993" class="lazyload" width="4000" height="3000"></p>
+<p>Overall, it does feel like we're trying to cover a lot of ground on everything from open science best practices to cloud-based workflows, machine learning, and even a session on mental health this year!
+Luckily, the firehose of information is mostly all recorded so people can always go back and rewatch it, and I'm really pleased that the organizers were mindful to put in ample breaks for us to recharge or slip in a much needed conversation somewhere.
+The inter-generational learning is something I can't get enough of, I've been pleasantly surprised at how good students nowadays are at using git and getting up to speed on performing tasks like searching for coincident satellite data, something which stumps even full professors!
+Like-wise, it was great talking to people from the NASA DAACs on what is going behind the scenes, and getting a heads up on what's coming up.
+And I can tell you now, there is a lot more to come!</p>
+<p>Here is a loose assortment of moments I'd like to share.</p>
+<hr>
+<h2 id="what-s-the-new-default-i-hear" tabindex="-1"><a class="header-anchor" href="#what-s-the-new-default-i-hear"><span>What's the new default I hear?!!</span></a></h2>
+<p>"Does everyone know how to use GitHub/git?", I asked, looking towards our project members (mostly looking at the students).
+They gave me a look as though it was a stupid question (like, duh?).</p>
+<p>Ok, so we can hit the ground running?!
+Maybe 2-3 years ago, it used to be that we would spend an hour or two getting people up to speed on how to use git.
+Either they all came prepared, or this cohort/generation is really, how to say, attuned to the tools needed for collaboration on scientific code.</p>
+<p>Another "what is going on" moment for me was when I was summoned for some advice on the <a href="https://github.com/geo-smart/mind-the-chl-gap">chlorophyll-a gap filling project</a>.
+Eli was asking me if Zarr was a good format to store n-dimensional data in for their use-case on time-series grids.</p>
+<p>Like YES!!
+I have been trying (unsuccessfully) to convince ML modellers to use Zarr for storing ML datasets in the &gt;2 projects I've been working on this year instead of NetCDF, GeoTIFF, etc, simply because you can make the data load as fast as technology allows (see my <a href="../when-cloud-native-geospatial-meets-gpu-native-machine-learning">last blog post</a>).
+And here you are, just using it as a matter of fact, as if there was a better choice?!
+Madness!</p>
+<p>The most epic story I heard that week though, was how Jessica managed to serendipitously connect Jeff Lee to Luis Lopez to make cloud-optimized HDF5 files a thing for the next ICESat-2 release (v007).
+The backstory was that Luis has been working for the past year (since the <a href="https://github.com/ICESAT-2HackWeek/h5cloud">h5cloud</a> project) on figuring out how to make accessing ICESat-2 data over s3 performant, from varying the internal chunk sizes of the HDF5 file to tweaking various settings of I/O libraries (details <a href="https://nsidc.github.io/cloud-optimized-icesat2">here</a>).
+All that said, the problem was that users won't get the maximum benefit (read: speedy file reads over s3) if the archive of ICESat-2 HDF5 files weren't reprocessed, a massive undertaking.</p>
+<figure>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAOCAYAAADaOrdAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEaklEQVR4nK3NzVMTdxzH8V8AHRKlMiOigd1NsgsCcYpatD61nanyUAkkJJAQNwlZ9iG7BGLM8wPZ3RieEpIQQuyDJx+I01NvPXXqTMeTnVYh3jo9+Ad4aKBO24M7dKLtTKe9tf3NvOZ3+XznDW7pVBrmPKI61YEgynYIQRD4CARBcrNWC/YAeO0/v5vWD1D8w9Oqk10YckzZBsEw1FKL9KGo7H+LBAiuwzSo0/RqT6iUbcp2RIW0oKhKkTIfbtjLg7rqCpD9/WYvD2Q/Fd6o1jZ/eF4AsheZN/ayQFbb1X4wI4SxUZtZ/faZU1Bra+sxJQy3dGLKgxlrU+PeBmioroL6f0SKoO63EmioqW3+tLsBGn7Ngvqalzmw72UB7PulAPYD7rN5WO/DoTO6i21YL3oUfae75b2BnkMFH/zW1ift8oep9sYLFwbqplhzvfvWfH3gy1v139y91PjsTpfi+9uoYutjRPG42K74dr1N8agEKb7Ka+RfLyoPPBYOHfhB3Cd/mQWNAF+Ojdj5+LgtFMOtnvDkhCdowb2RcSocGqeDEQPuDuj7p64PG2YCOkoUR33F5dH4RtKYKPHG6GpwzD9PG2e8k0bOPWFyeywm1j1ppAnLBGGb6HeZR7Ul9uQhYAsnM2R05VMmtvqADmfKRHipTPiXN8nQ0qbzxsI9M8ffGySDd4ye6F2XmLofXE/fj62vlKPFlc1QWti8EZnb5GYdZZq5Vnax+AOGwcukw/H5NXx6wWyi9Caj5QjAfcknVDDznI3md12hfJWKrFZJf6Y6HUxX7Z6lqokRqgPTwaphLlplhNRusJDejaxldkOFzE5gObnjDXl2WM6xQ5H4Dk3bdmnStkPgUz9brPQjwxjn7x9xqIDdv/gjE86/cMdLkjtSesXG1yVXsCAx4TWJ8GYlC7cgfcREJZM3IXHJJSlSzEnRtZwUXs9LofSi5A/fkGbdhMRQDsnFTEkuyvGKtpESjrPfjZs8kf5RJwrsodQXTDT7cCax/nQ2XnzCJtaeuiL5LTqW23b6MtsTXHJ7kAxWxuaiFZpPVQL5TCWYy1R8ufS2d1GszIU8zxi3s0Iyjm2KnXpK0o4tp43YskzSZYOBdV7R2ZTAEVugXXzO604W4x6xFOfEtXkuUZh3JdYSVDjLW2cX+KtUmDfOxXhGWBD8+Qzvz6X569kVfm5RELiQJ0nOEqKTmxLI2el5giUSdvs0PzFJkXo9c/6KztYEcCECkUlRQyVTXWxq8TghiF2UkOomEjd77AGhx0AFet4fp7VD9hmt9brvhN3vPWnxsH16F3FWN42/e9U6dm7Iojs7bNOf0hOm3mGr/vSVEV3fpctD3X3nLh873nNCDhiGkQUCAZkoiq+5/8otysxmUXbxYkg2MnJbNjhI1Wl7+/Z3dncfQDs7m1AUbVKr1TUH1Rgm12DYQUStbkYQpAWG4cMwDDdDENT07yMdHU0Yhr0OYRhWi8pVGk0zola3qlSqdgRBlAiCHIUgqOV39ETOhxSJ4rsAAAAASUVORK5CYII=" alt="Cloud-optimized HDF5 file internal structure" data-src="https://github.com/nsidc/cloud-optimized-icesat2/blob/4210ed22486162a938589412e734f27b6c737372/figures/figure-2.png?raw=true" class="lazyload" width="2025" height="1122">
+    <figcaption>
+    <small>
+    Internal structure of a cloud-optimized HDF5 file. First read is R0, and subsequent reads are R1, R2, ... Rn. Source: https://github.com/nsidc/cloud-optimized-icesat2
+    </small>
+    </figcaption>
+</figure>
+<p>Now, long story short, Jessica happened to be sitting next to Jeff at some conference dinner, and after some chatter and realizing who they were, she managed to convince Jeff to talk to Luis afterwards.
+Apparently, Jeff was that very important person at NSIDC who could change how the ICESat-2 HDF5 files were written out, and Luis manages to explain how some simple config changes were all that was needed to get cloud-optimized performance.
+Yes, seemingly trivial, but it took us 5 years to get here...</p>
+<p>Defaults, you never know how important they are, until you look into it.</p>
+<hr>
+<h2 id="giving-back-to-the-community" tabindex="-1"><a class="header-anchor" href="#giving-back-to-the-community"><span>Giving back to the community</span></a></h2>
+<p>It's not often that I get to interact face-to-face with people and get to see/hear them express their feedback.
+For me, good feedback itself can vary from none (it just works, no complaints) to quick acknowledgement (thank you, that was helpful!) to a more active form (hey, I think you can help me with ...).</p>
+<p>This time round, I was particularly excited to see how combining the ICESat-2 and GeoSMART tracks would work out, the latter being all about Machine learning which is quite the rave for some reason.
+There were many <a href="https://github.com/uwhackweek/schedule-2024/issues/38#issuecomment-2198787712">possibilities</a> on what Machine Learning method to teach, and what target/topic to apply it on.
+In the end, I designed this <a href="https://icesat-2-2024.hackweek.io/tutorials/machine-learning/point_cloud_classifier.html">tutorial on classifiying ICESat-2 ATL07 point cloud data</a> into different surface types (water, thin sea ice, thick sea ice).</p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAMCAYAAACX8hZLAAAACXBIWXMAAAsTAAALEwEAmpwYAAADd0lEQVR4nFWUy29bVRDG/R+AxBo2rGFBVRbsKgQrNiVdkbKI1D+AVClQyqJZBKeiYtFITaOIkpJGTlsiItIoJkpIRUliJ3GF7byFHdvx677fvvfaTn7onhIEV/o052jumW/OzDcndnp6SqfbwXVdNE1DURRUVf13fbZXFBVZlpEkWdgzRP7oX13XhY3gOA7tdpuzL+aELk1X5i+1yH7zkCOljGTKOK4jDpRKJfL5bTY3t0inN0mtb7K+tkEut81RqYRmmFiOi+04WJaFaRjCep5HGIaCLFZzG+TUXVZqq/x2/JyMlKViVmkFLTRVI/tnjqdPF0gkHpFI/MTERII7d+4xPf2YtVQaWbcx3ADb83FcF8MwBM6IfN8nVjIrpBsZ5opJfikssFpNi1vZnkO9VufZs98ZH/+BW8O3ice/42r/V1y6dJlrA18w/WSGsqTTNH10p4XreoLgrHxRCwTJsVZlp7HHenmDtfIG2eo2R1IJ3dCplCssL61wb3ScePxbBm8O8+nlK5w79x69n/Qydv8BhbrKseah2i1cr4Vt25imhWU7eL5Pu9MhZhgazWaNSqUgUK9XkKSGyKRUKrO0tMLY2PcMx28zcPUGH37wEW+8/iY9PT3cfzBJVdKQrRaW6+MHIUEQ4vkBTsvHC0La3S4xO1JH8Qgpl0fO5pD3D1DKFQxdp1I5Znl5hdHRcb6+cZPe3j7efusdXn3lNT6+eJEfJ6dQdBPXD2n5AUHYFo2O9robCLTCDjFf07AOD1FSKZTVVdRsFqNcxrVtmk1JKOrhwwSDg0P09V3hwoX3OX/+Xfo/62d+fh7HfilXP8re9bBtB9mwaeiOuKEXtImFpolTKqFns2gvXqDv7WFUq9iWJWZgf/+AmZmf+SZ+i4Frn3P9y+sMDQ2RSCTIZDKi0VGDI7uzu0d6c4vnqQz7R1UamkUrCIl1goAwkpsk4TWbeKqKG0nQNMWw1Wp1FhaS3L07ysjICMlkkp2dHYrFIvV6/Z9BVcQ6+esik1PTTEw9JpPbpaloL9UVTfzJyQndbleg0+0KR6TzKEAkgFQqxezsLHNzcxQKBVGeIAj+90pEJIuLi0wlHjE1/YT87gGaboiBjHF6SkT0X3Q6HUEUPQ9RoCjw1taWKE+j0RD+CFGAyG+apkgmn8+znkrzx3qa8nEN23HFxP8NimoaPFtN+ssAAAAASUVORK5CYII=" alt="ICESat-2 ATL07 sea ice point cloud classification ML pipeline" data-src="https://github.com/user-attachments/assets/d61521a4-d27a-4eb8-b886-3d92c5516c32" class="lazyload" width="2221" height="1050"></p>
+<p>The machine learning pipeline itself was probably 80% data preprocessing and only 20% model training, but I thought it would be useful to show all of that end-to-end.
+I was particularly fond of the code to find coincident Sentinel-2 imagery and ICESat-2 tracks, something adapted from a Jupyter notebook sent to me from Alek Petty.
+That, and a nice clean way to create a GeoParquet file, and even some code using PyGMT to plot an RGB image and do grdtrack.</p>
+<p>Funny thing is that I'm not even a sea ice scientist (that tutorial was adapted from someone else's code), so I was glad that nobody asked difficult questions (there were actually a lot of questions during my pauses)!
+Something I kinda realized that week was how there were way more ATL08 land/vegetation users than those using the ice products.
+I did manage to help a couple of students tweak my notebook code to use ATL08 instead of ATL07 (and I hope others can figure it out themselves), but in a way, I think it'd be good if someone shows a vegetation/land cover example next year.</p>
+<p>Besides the tutorial, I'd be remiss if I didn't mention how the <a href="https://cryointhecloud.com">CryoCloud JupyterHub</a> has worked practically seamlessly this time, as good infrastructure should.
+Over the past two years, I've helped out as much as I can on package maintenance with Tasha, Scott and others, because solving dependency hell has been 10% of my PhD, and I don't want that to be the case for others.</p>
+<p>It was also during that week that I found out about CryoCloud's plans to rebrand as StratusGeo (subject to funding), and while I'm a little saddened by the loss of the 'Cryo' part, continuity of the JupyterHub is more important.
+There's still so much innovation to be done in terms of making cloud-optimized datasets more ubiquitous, and also implementing batch-style workflows to compete with HPCs, so they have my fullest support in taking the next leap.</p>
+<p>Feedback matters.
+The next time you fill in those 'surveys', do spell out what you appreciate.</p>
+<hr>
+<h2 id="what-next" tabindex="-1"><a class="header-anchor" href="#what-next"><span>What next?</span></a></h2>
+<p>Being so close to people working on satellites and their products, you hear things like:</p>
+<ul>
+<li>The upcoming <a href="https://edge.ucsd.edu/instrument">Earth Dynamics Geodetic Explorer (EDGE)</a> altimeter combining ICESat-2 and GEDI, 40 beams??!</li>
+<li>NISAR's (yet again) delayed launch date...</li>
+<li>HLS will prioritize releasing quick look products instead of 10m spatial resolution product, based on survey needs...</li>
+</ul>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAMCAIAAAAYkIEcAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR4nBXKTU/bZgAAYP+jXXbhsE7V/sEOU9eKnsambu0QnTS2sm5C29pSVR0rakFLGZCENBASUghxCE6cxPlwbMeO7ddfsf36I04c4kAahoS607Tn/CDhmrJZEUIFKlSg1nE2WtNidX2zJL7KVlcy+FquEa5IO6T1puFuVazXRWOzDN/UnR3S3Sobq6i4kmmvoiBKwHSrjyRoZ6ehRXEmWqRjhLhL2fGavl0CWyf0FkZHi9wOISdJuEe58aoRxaVYWdltwN2GFSurYUwIY2KkKCXreoaxERQEKOukCTZVodOkctjupxpGsqqmakqGtjKMlaFhhrGPuO5hU0sTwj4hpppmijSSVWX//wMPaZhrWRhnI7gyLHHGSb2Zb1DHrJaXTrMtK8uYxy2rCPwC6GO8cyK4ReBhrHZM8igJUM7JsjbKmHnOLimnuDwoS70qcBFSH9bboECc5KtYjuELUv+Ys3KsgbI6BnpFeVAC3bLk1SW7xis1ViB4jdB8XO6V5F5FHZDOBWlPKHNE6z6yXykkc7Htved/J55vHEWSNeItSe7V8G38IFY5SpIVtNWqSEZLNhgBtAWOUzq8M2zCgISjJjxr9y/bvUvePResAfL7XwtLa9/+9ufthWc355dnlrYevUytvTp4uZxeenH4dAOPHlDFqiwDTRcloMq8YuodP+C656w34byJElwpwyvFn6jdIXJ77vo385/c++HazP2pm/c+vPPTpw9XZh9Hf3xx+EsIe5JiEgWJYEzVdB3d7EBTho5hDwbAGwH/Qj69tCb/wvF7OLqEg3Pkxp2pL+euff3dRzOzU5/NfHDr7sd3F288WP3qj/TDdWw5Sb7NUCW8TYsqkFRe6/AdUzK7sA1dxh5y3kQ/e68GV9rgQuuNkO9/vbXweHrhyfTCo+m5nz+/v/jFg2ezi6H55b2noex6rHiUwAtonWhwFC1SnEwLGg900ABKUTRLcp+xz1v2ueCcyU6A7GVDydzrRG49kduIZzfjaCSORmLZzcjRRji7vY3uJ7F8oVFviW2gAxXKuqMbriEasKlapNpjzVPBClR3ZHpniO3JVk+FfdPybdhzTM/RbEPU5CZHExRZaTZpXlBN6A0Gp+PR8N1oNBkH47P+MICerzu+4fiuH/jBeDT+5z+0Wqnu2fOu6QAAAABJRU5ErkJggg==" alt="EDGE swath-mapping laser altimeter over vegetation and ice" data-src="https://web.archive.org/web/20240907043249im_/https://edge.ucsd.edu/wp-content/uploads/sites/499/2024/05/ED001_R10.png" class="lazyload" width="1421" height="676"></p>
+<p>But what I'm more keen on is when's the next hack session!
+OpenScapes has this 2-hr hackdays every fornight (e.g. for <a href="https://github.com/NASA-Openscapes/how_we_work/issues/49">earthaccess</a>), but they're not ideal for my timezone.
+Next best in-person one would probably be this <a href="https://discourse.pangeo.io/t/post-agu-pangeo-working-meeting-december-14-2024-in-washington-dc/4440">Post-AGU Pangeo hackathon</a>, so I guess I'll see everyone there!</p>
+
+    </main>
+  
+
+
+<script>
+            (function (selector, src, preferNativeLazyLoad) {
+  var images = document.querySelectorAll(selector);
+  var numImages = images.length;
+
+  if (numImages > 0) {
+    if (preferNativeLazyLoad && 'loading' in HTMLImageElement.prototype) {
+      for (var i = 0; i < numImages; i++) {
+        var keys = ['src', 'srcset'];
+
+        for (var j = 0; j < keys.length; j++) {
+          if (images[i].hasAttribute('data-' + keys[j])) {
+            var value = images[i].getAttribute('data-' + keys[j]);
+            images[i].setAttribute(keys[j], value);
+          }
+        }
+      }
+
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = src;
+    document.body.appendChild(script);
+  }
+})(
+              'img',
+              'https://cdn.jsdelivr.net/npm/lazysizes@5/lazysizes.min.js',
+              false
+            );
+          </script></body></html>

@@ -7,6 +7,14 @@
     <description>Technical blog posts on building next generation geospatial data science tools!</description>
     <language>en</language>
     <item>
+      <title>Engaging in the 2024 UW Hackweek</title>
+      <link>https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/</link>
+      <description>Connecting with some of the most passionate open science advocates in a week-long Hackathon at Seattle.</description>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <dc:creator>Wei Ji Leong</dc:creator>
+      <guid>https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/</guid>
+    </item>
+    <item>
       <title>When cloud-native geospatial meets GPU-native machine learning</title>
       <link>https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/</link>
       <description>Accelerating compute with GPUDirect Storage technology on cloud-native geospatial data.</description>

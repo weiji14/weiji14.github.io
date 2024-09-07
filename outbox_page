@@ -45,6 +45,27 @@
         "type": "Note",
         "url": "https://weiji14.github.io/blog/when-cloud-native-geospatial-meets-gpu-native-machine-learning/"
       }
+    },
+    {
+      "actor": "https://weiji14.github.io/weblog",
+      "type": "Create",
+      "published": "2024-10-24T00:00:00.000Z",
+      "id": "https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/publish",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "attributedTo": "https://weiji14.github.io/weblog",
+        "content": "<p>Engaging in the 2024 UW Hackweek</p><p><a href=\"https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/\">https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/</a></p>",
+        "id": "https://weiji14.github.io//blog/engaging-in-the-2024-uw-hackweek/",
+        "inReplyTo": null,
+        "published": "2024-10-24T00:00:00.000Z",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "type": "Note",
+        "url": "https://weiji14.github.io/blog/engaging-in-the-2024-uw-hackweek/"
+      }
     }
   ]
 }
